@@ -9,7 +9,7 @@ Docker and docker-compose installed and working.
 
 ### How To use
 
-Clone this repository into your machine with the command `git clone github.com/gcavalcante8808/k3sdocker.git`, access the folder created with `cd k3sdocker` and use the `docker-compose up -d` to finish the proccess.
+Clone this repository into your machine with the command `git clone https://github.com/gcavalcante8808/k3s-docker.git`, access the folder created with `cd k3s-docker` and use the `docker-compose up -d` to finish the proccess.
 
 After a minute, test the k3s using the command `docker-compose exec node1 k3s kubectl get nodes` and verify if the node1 is marked as Ready.
 
